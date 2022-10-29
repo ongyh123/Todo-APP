@@ -23,6 +23,7 @@
   }
   
   .input_submit {
+    /* position absolute to be position inside of the input box */
     position: absolute;
     width: 50px;
     height: 50px;
@@ -42,6 +43,7 @@
   }
   
   .input_submit:active {
+    /* when it is clicked, become smaller */
     transform: scale(0.8);
     box-shadow: 0 0 5px black;
   }
