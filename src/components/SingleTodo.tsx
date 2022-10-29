@@ -3,7 +3,7 @@ import { Todo } from '../model';
 import { AiFillEdit, AiFillDelete } from 'react-icons/ai';
 import { MdDone } from 'react-icons/md';
 import './styles.css';
-import { Draggable } from 'react-beautiful-dnd';
+import { Draggable } from '@hello-pangea/dnd';
 
 type Props = {
   index: number;
